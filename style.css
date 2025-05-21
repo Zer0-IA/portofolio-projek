@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Fire Hole';
+    src: url('./fonts/Fire Hole.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Bubbleboddy';
+    src: url('./fonts/Bubbleboddy-FatTrial.ttf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Hairy';
+    src: url('./fonts/Hairy.otf') format('opentype');
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes waveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
