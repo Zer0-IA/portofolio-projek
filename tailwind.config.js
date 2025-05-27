@@ -21,10 +21,8 @@ module.exports = {
           '0%, 100%': { transform: 'rotate(0deg)' },
           '50%': { transform: 'rotate(10deg)' },
         },
-        typing: {
-          'from': { width: '0' },
-          'to': { width: '100%' },
-        },
+       
+        
         blink: {
           '50%': { borderColor: 'transparent' },
         },
